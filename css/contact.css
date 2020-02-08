@@ -1,0 +1,150 @@
+/*Start main rules*/
+
+body
+{
+    background:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    Linear-gradient(127deg, black, black 70.71%),
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #DDD;
+}
+
+
+
+ul
+{
+    list-style: none;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+}
+/*End main rules*/
+
+/*Start header*/
+header
+{
+    
+    height: 68px;
+    overflow: hidden;
+    
+    
+}
+header nav
+{
+    
+    width: 95%;
+    float: right;
+    height: 100%;
+    
+    
+}
+
+header nav ul
+{
+    word-spacing: 100px;
+    height: 100%;
+    margin-top: 0;
+    
+    
+}
+
+header nav ul li
+{
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 0 8px; 
+}
+
+header nav ul li:hover{
+    background-color: #B83535 ; 
+}
+
+header nav a
+{
+    text-decoration: none;
+    color: #DDD;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+header .logo
+{
+    width: 5%;
+    height: 100%;
+    float: left;
+   
+    
+}
+
+header .logo:hover
+{
+   background-color: #B83535 ;
+}
+
+header .logo img
+{
+    width: 60px;
+    margin: 15px auto;
+}
+
+
+/*End header*/
+
+/*Start content*/
+
+.content2 .fond
+{
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png');
+    background-attachment: fixed;
+    height:450px;
+}
+
+.content2 .contenu
+{
+    font-size: 90px;
+    padding-top:180px;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+/*End content*/
+
+/*Start footer*/
+
+label, input, select
+{
+    display: block;
+    margin: 0 auto;
+}
+
+label,select
+{
+    margin-top: 10px;
+}
+
+input,select
+{
+    margin-top: 5px;
+    width: 250px;
+    height: 34px;
+    font-size: 14px;
+}
+
+::placeholder
+{
+    text-align: center;
+}
+
+input[type="submit"]
+{
+    width: 130px;
+    background:#337ab7;
+    border-color: #2e6da4;
+    margin-top: 15px;
+}
+/*End footer*/
